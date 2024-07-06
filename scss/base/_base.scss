@@ -1,0 +1,103 @@
+/////////////////////////////////////////////////////////////
+// PERSIAN FONTS
+/////////////////////////////////////////////////////////////
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-Thin.woff2") format("woff2"),
+    url("../font/Vazirmatn-Thin.ttf") format("ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-ExtraLight.woff2") format("woff2"),
+    url("../font/Vazirmatn-ExtraLight.ttf") format("ttf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-Light.woff2") format("woff2"),
+    url("../font/Vazirmatn-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-Regular.woff2") format("woff2"),
+    url("../font/Vazirmatn-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-Medium.woff2") format("woff2"),
+    url("../font/Vazirmatn-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-SemiBold.woff2") format("woff2"),
+    url("../font/Vazirmatn-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-Bold.woff2") format("woff2"),
+    url("../font/Vazirmatn-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-ExtraBold.woff2") format("woff2"),
+    url("../font/Vazirmatn-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../font/Vazirmatn-Black.woff2") format("woff2"),
+    url("../font/Vazirmatn-Black.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/////////////////////////////////////////////////////////////
+// BASIC SETTING
+/////////////////////////////////////////////////////////////
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 1vw;
+}
+
+body {
+  box-sizing: border-box;
+}

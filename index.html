@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>بازی PIG</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="box box--right active">
+        <p class="box__text box__text--right">بازیکن 1</p>
+        <p class="box__total-score box__total-score--right">0</p>
+        <div class="box__save__score box__save__score--right">
+          <p class="box__save-score-text box__save-score-text--right">مجموع</p>
+          <p class="box__save__score-number box__save__score-number--right">
+            0
+          </p>
+        </div>
+        <div class="box__winner-banner box__winner-banner--right">برنده</div>
+      </div>
+      <div class="box box--left">
+        <p class="box__text box__text--left">بازیکن 2</p>
+        <p class="box__total-score box__total-score--left">0</p>
+        <div class="box__save__score box__save__score--left">
+          <p class="box__save-score-text box__save-score-text--left">مجموع</p>
+          <p class="box__save__score-number box__save__score-number--left">0</p>
+        </div>
+        <div class="box__winner-banner box__winner-banner--left">برنده</div>
+      </div>
+      <div class="btns-img">
+        <button class="btns-img__new-game">🔄شروع دوباره</button>
+        <button class="btns-img__roll-dice">🎲ریختن تاس</button>
+        <button class="btns-img__save">📥ذخیره</button>
+        <img class="btns-img__dice-img" src="./img/dice-1.png" alt="dice" />
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
